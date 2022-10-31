@@ -10,12 +10,12 @@ const Profile = () => {
         <Heading fontSize={'12pxs'} textAlign={"center"} mb={"20px"}>@Jonathan</Heading>
      <Box w={"85%"}  m={"auto"}>
         <Box display={'flex'} flexDir={"column"} gap={5}>
-        <Button leftIcon={<BsTwitter/>}  bg={"#E6E8EC"}><a target="_blank" href="https://twitter.com/_Jonathan_0199">Twitter</a></Button>
-        <Button bg={"#E6E8EC"}><a target="_blank" href="https://training.zuri.team/">Zuri Team</a></Button>
-        <Button bg={"#E6E8EC"}><a target="_blank" href="http://books.zuri.team">Zuri Books</a></Button>
-        <Button bg={"#E6E8EC"}><a target="_blank" href="http://books.zuri.team/python">Python Books</a></Button>
-        <Button bg={"#E6E8EC"}><a target="_blank" href="https://background.zuri.team">Background Coder</a></Button>
-        <Button bg={"#E6E8EC"}><a target="_blank" href="https://books.zuri.team/design-rules">Design Books</a></Button>
+        <Button leftIcon={<BsTwitter/>}  bg={"#E6E8EC"}><a target="_blank" href="https://twitter.com/_Jonathan_0199" rel="noopener noreferrer" >Twitter</a></Button>
+        <Button bg={"#E6E8EC"}><a target="_blank" href="https://training.zuri.team/" rel="noopener noreferrer" >Zuri Team</a></Button>
+        <Button bg={"#E6E8EC"}><a target="_blank" href="http://books.zuri.team" rel="noopener noreferrer" >Zuri Books</a></Button>
+        <Button bg={"#E6E8EC"}><a target="_blank" href="http://books.zuri.team/python" rel="noopener noreferrer" >Python Books</a></Button>
+        <Button bg={"#E6E8EC"}><a target="_blank" href="https://background.zuri.team" rel="noopener noreferrer" >Background Coder</a></Button>
+        <Button bg={"#E6E8EC"}><a target="_blank" href="https://books.zuri.team/design-rules" rel="noopener noreferrer" >Design Books</a></Button>
         </Box>
         <Image src={"./images/Footer.png"} m={ "auto"}/>
     </Box>
